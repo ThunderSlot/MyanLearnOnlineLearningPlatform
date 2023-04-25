@@ -1,0 +1,140 @@
+:root{
+
+    /* Default text color */
+    --color-default: #212529;
+    --color-default-rgb: 33, 37, 41;
+
+    /* Background */
+    --bg1: #fff;
+    --bg2: #f5f5f5;
+    
+    --text: #363636;
+
+   --green: #4bae4f;
+    --orange: #ff6929;
+    --white: #fff;
+    --gray-white: #ccc;
+    --gray: #525252;
+    --gray-light: rgb(124, 124, 124);
+    --black: #000;
+  --color-white-rgb: 255, 255, 255;
+   --light-gradient: #ffb429;
+   --dark-gradient: #fe431e;
+   --linear-orange: linear-gradient(45deg, var(--light-gradient)0%, var(--dark-gradient)100%);
+
+    /* Fonts */
+   --font-default: 'EB Garamond', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: 'EB Garamond', serif; /*'Playfair Display', serif;*/
+  --font-secondary: 'Inter', sans-serif;
+
+  /* For Media max width 960px */
+  --big-font-size: 3rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;    
+   
+  
+    
+    
+
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a{
+    color: var(--color-links);
+    text-decoration: none!important;
+}
+
+.visible{
+  display: block;
+}
+.invisible{
+  display:none!important;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #67D493;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.preloader img{
+  width: 50%;
+}
+
+.primaryColor{
+  color: var(--light-gradient);
+}
+
+.profileImage
+{
+  width: 50px;
+  height: 50px;
+}
+
+.margin-left1
+{
+  margin-left: 3%;
+}
+.margin-right1
+{
+  margin-right: 3%;
+}
+
+.cursorPointer
+{
+  cursor: pointer;
+}
+
+.bigFontSize
+{
+  font-size: var(--big-font-size);
+}
+.h1FontSize
+{
+  font-size: var(--h1-font-size);
+}
+.h2FontSize
+{
+  font-size: var(--h2-font-size);
+}
+
+.h3FontSize
+{
+  font-size: var(--h3-font-size);
+}
+.normalFontSize
+{
+  font-size: var(--normal-font-size);
+}
+.smallFontSize
+{
+  font-size: var(--small-font-size);
+}
+.colorFontBlack
+{
+  color: #000!important;
+}

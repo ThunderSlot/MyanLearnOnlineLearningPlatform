@@ -1,0 +1,176 @@
+	/*Check out css*/
+
+    .scr_text {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: #686f7a;
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-top: 27px;
+    }
+    .checkout-tabs {
+        width: 100%;
+        margin-top: 42px;
+        margin-bottom: 20px;
+    }
+    .checkout-tabs .nav-tabs {
+        border-top: 1px solid #efefef;
+        border-left: 1px solid #efefef;
+        border-right: 1px solid #efefef;
+        margin: 0;
+        border-bottom: 0;
+        background: #f7f7f7;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .checkout-tabs .nav-tabs .nav-item {
+        width: 50%;
+        text-align: center;
+        border-right: 1px solid #efefef;
+    }
+    .checkout-tabs .nav-tabs .nav-item .nav-link {
+        background: transparent;
+        color: #686f7a;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        line-height: 24px;
+        padding: 15px 10px !important;
+        margin-right: 0;
+        border: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .check_icon5 {
+        font-size: 120%;
+        margin-right: 5px;
+    }
+    .checkout-tabs .nav-tabs .nav-item.show .nav-link, .checkout-tabs .nav-tabs .nav-link.active {
+        color: var(--color-primary) !important;
+        background-color: none !important;
+        border-bottom: 2px solid var(--color-primary) !important;
+    }
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+        font-size: 14px;
+        margin-top: 0;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+    }
+    .lbel25 label {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10px !important;
+        color: #333;
+        text-align: left;
+        display: block;
+    }
+    .ui.swdh11 {
+        font-size: 14px !important;
+        width: 100%;
+    }
+    .ui[class*="left icon"].swdh19.input>input {
+        padding-left: 2em!important;
+        padding-right: 2em!important;
+        height: 40px !important;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    .ui[class*="left icon"].swdh11.input>input {
+    
+        height: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    .ui.search .prompt {
+        border-radius: 3px !important;
+    }
+    .srch_explore {
+        background: #fff !important;
+        border: 1px solid #e5e5e5 !important;
+        color: #333 !important;
+        box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.02) !important;
+    }
+    .ui.selection.cntry152.dropdown {
+        min-width: 100% !important;
+        padding: .78571429em 2.1em 0.785714em 2em !important;
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+    
+    }
+    
+    .ui.selection.dropdown.cntry152 {
+        border: 1px solid #e5e5e5 !important;
+        border-radius: 3px !important;
+        box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.02) !important;
+    }
+    .dropdown{
+        padding-left: 2em!important;
+        padding-right: 2em!important;
+        height: 40px !important;
+    }
+     img 
+     { 
+      -webkit-user-drag: none; 
+      -khtml-user-drag: none; 
+      -moz-user-drag: none; 
+      -o-user-drag: none; 
+      user-drag: none; 
+    }
+    .t-body {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 30px !important;
+        color: #686f7a;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 25px !important;
+    }
+    .media>div:first-child {
+        margin-right: 1em;
+    }
+    .media__item {
+        -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+        flex: 0 auto;
+    }
+    .t2-body {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10px !important;
+        color: #686f7a;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 0px !important;
+    }
+    .media__body {
+        -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+        flex: 1 0;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .financial-institutes {
+        display: inline-block;
+        list-style: none;
+        line-height: 0;
+    }
+    .financial-institutes__logo {
+        display: inline-block;
+        margin: 0 1px 5px 0;
+    }
+    .financial-institutes__logo img {
+        width: 48px;
+        height: 30px;
+    }
